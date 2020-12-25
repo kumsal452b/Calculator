@@ -1,3 +1,80 @@
 ﻿body
 {
+    background-color:aqua;
 }
+.page {
+    width: 80%;
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: left;
+    align-self: center;
+    vertical-align: central;
+    justify-items: center;
+    background-color: #f16059;
+    border-radius: 50px;
+    padding: 20px;
+    elevation: below;
+    text-orientation: upright;
+    text-decoration-color: aliceblue;
+    border: hidden;
+}
+.subpage {
+    width: 80%;
+    max-width: 300px;
+    background:center;
+    text-align:center;
+    background-color:black;
+}
+#num1 {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2px;
+    margin-bottom: 25px;
+    background-color: blueviolet;
+    border: hidden;
+}
+
+#num2 {
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2px;
+    margin-bottom: 25px;
+    text-decoration-color: azure;
+    border: hidden;
+}
+
+#Select1 {
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2px;
+    margin-bottom: 25px;
+    border: hidden;
+}
+#calculate {
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2px;
+    margin-bottom: 25px;
+    max-width: 200px;
+    width: 80%;
+    border: hidden;
+}
+#calculate:hover {
+    background-color:burlywood;
+    border:hidden;
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2px;
+    margin-bottom: 25px;
+    max-width: 200px;
+    width: 80%;
+}
+
+
+
+
+
