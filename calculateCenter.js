@@ -9,25 +9,31 @@ var result = 0.0;
 var button = document.getElementById("calculate");
 
 function Calculate() {
-    var val1 = num1.value;
-    var val2 = num2.value;
+    var val1 = Number(num1.value);
+    var val2 = Number(num2.value);
+
+    if (selector.value == "1") {
+        result = Number(val1 + val2);
+        alert(result);
+    }
+    else if (selector.value == "2") {
+
+        result = Number(val1 - val2);
+        alert(result);
+    }
+    else if (selector.value == "3") {
+
+        result = Number(val1 * val2);
+        alert(result);
+    }
+    else if (selector.value == "4") {
+
+        result = Number(val1 / val2);
+        alert(result);
+    } else {
+        alert("Please select a proceses");
+    }
+
    
-    if (selector.value = "+") {
-        result = val1 + val2;
-    }
-    else if (selector.value = "-") {
-
-        result = val1 - val2;
-    }
-    else if (selector.value = "*") {
-
-        result = val1 * val2;
-    }
-    else {
-
-        result = val1 / val2;
-    }
-
-    alert(result);
 }
     button.addEventListener("click", Calculate);
