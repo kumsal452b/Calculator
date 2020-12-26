@@ -1,37 +1,57 @@
 ﻿body {
-    background-color: aqua;
-    background: radial-gradient(circle, rgba(66,40,52,1) 0%, rgba(107,46,96,1) 41%, rgba(73,110,47,1) 50%, rgba(74,47,111,1) 54%, 
-    rgba(112,47,47,1) 59%, rgba(48,119,76,1) 92%, rgba(0,0,0,1) 100%);
+    background: rgb(44,40,66);
+    background: radial-gradient(circle, rgba(44,40,66,1) 0%, rgba(51,47,110,1) 50%, rgba(0,0,0,1) 100%);
 }
 .page {
     width: 80%;
     max-width: 300px;
-    margin: 50px auto;
-    text-align: left;
+    margin: 20px auto;
+    text-align: center;
     align-self: center;
     vertical-align: central;
     justify-items: center;
     background-color: #f16059;
     border-radius: 50px;
-    padding: 20px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     elevation: below;
     text-orientation: upright;
     text-decoration-color: aliceblue;
     border: hidden;
+    border-image-repeat:round;
+ 
+    background-image: url("C:/Users/keski/Desktop/github-sample/Calculator/sunflower.jpg");
 }
 .subpage {
+    margin-top: 0px;
+    margin-bottom: 50px;
     width: 80%;
-    max-width: 300px;
-    background:center;
-    text-align:center;
-    background-color:black;
+    max-width: 700px;
+    min-width: 290px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: antiquewhite;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: larger;
+
+}
+.compPage {
+    text-decoration-color: aliceblue;
+    margin: 50px auto;
+    text-align: left;
+    background: radial-gradient(circle, rgba(123,117,159,1) 0%, rgba(150,127,127,0.5298494397759104) 100%);
+    
+    padding:20px;
+    border-radius:50px;
 }
 #num1 {
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 2px;
     margin-bottom: 25px;
-    background-color: blueviolet;
+    background: radial-gradient(circle, rgba(123,117,159,1) 0%, rgba(150,127,127,0.5298494397759104) 100%);
     border: hidden;
 }
 
@@ -43,6 +63,7 @@
     margin-bottom: 25px;
     text-decoration-color: azure;
     border: hidden;
+    background: radial-gradient(circle, rgba(123,117,159,1) 0%, rgba(150,127,127,0.5298494397759104) 100%);
 }
 
 #Select1 {
@@ -51,7 +72,8 @@
     border-bottom-right-radius: 15px;
     padding: 2px;
     margin-bottom: 25px;
-    border: hidden;
+    border: groove;
+    background: radial-gradient(circle, rgba(123,117,159,1) 0%, rgba(150,127,127,0.5298494397759104) 100%);
 }
 #calculate {
     margin-top: 10px;
@@ -59,7 +81,9 @@
     border-bottom-right-radius: 15px;
     padding: 2px;
     margin-bottom: 25px;
-    max-width: 200px;
+    max-width: 300px;
+    min-width:250px;
+    min-height:50px;
     width: 80%;
     border: hidden;
 }
