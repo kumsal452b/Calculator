@@ -1,6 +1,7 @@
-﻿body
-{
-    background-color:aqua;
+﻿body {
+    background-color: aqua;
+    background: radial-gradient(circle, rgba(66,40,52,1) 0%, rgba(107,46,96,1) 41%, rgba(73,110,47,1) 50%, rgba(74,47,111,1) 54%, 
+    rgba(112,47,47,1) 59%, rgba(48,119,76,1) 92%, rgba(0,0,0,1) 100%);
 }
 .page {
     width: 80%;
